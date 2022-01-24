@@ -1,0 +1,287 @@
+/*---------------------------------------/*
+  # SETTINGS
+/*---------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@500;600;700&display=swap");
+$navbar-font: "Quicksand", sans-serif;
+$navbar-size: 2rem;
+$lichtgroen: #93b8a9;
+$donkergroen: #313d38;
+
+/*---------------------------------------/*
+  # ELEMENTS
+/*---------------------------------------*/
+.hidden {
+  display: none !important;
+}
+
+.h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.h2 {
+  font-family: $navbar-font;
+  font-weight: 500;
+  font-size: 25rem;
+}
+h3 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: white;
+}
+/*---------------------------------------/*
+  # COMPONENTS
+/*---------------------------------------*/
+.c-logo-txt {
+  fill: white;
+}
+
+.c-logo-txt:hover {
+  fill: $lichtgroen;
+}
+
+// .c-logo {
+//   margin-left: 2.5rem;
+// }
+
+.c-banner__text {
+  text-align: center;
+  color: white;
+  background: url(../img/banner2.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 6rem 0;
+  font-size: 4em;
+
+  @media only screen and (max-width: 768px) {
+    padding: 4rem 0;
+  }
+}
+
+.c-aanbod {
+  padding: 2rem 0;
+  padding-bottom: 6rem;
+  background-color: $donkergroen;
+}
+
+.c-aanbod__foto {
+  margin-top: 2rem !important;
+
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.c-gechiedenis {
+  padding: 4rem 0;
+  background-color: $donkergroen;
+}
+
+.c-geschiedenis__titel {
+  font-size: 3rem;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 6px #000000;
+  @media only screen and (max-width: 578px) {
+    font-size: 2rem;
+  }
+}
+
+.c-footer {
+  padding: 4rem 0;
+  background-color: $donkergroen;
+}
+.c-footer__titel {
+  font-size: 3rem;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 6px #000000;
+  @media only screen and (max-width: 578px) {
+    font-size: 2rem;
+  }
+}
+
+.c-geschiedenis__gezin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (max-width: 991px) {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 1rem;
+    border-color: $lichtgroen;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+}
+
+.c-geschiedenis__tekstvak {
+  padding: 2rem 0;
+  background-color: $lichtgroen;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  text-shadow: 0.1px 0.1px 10px #747070;
+}
+.c-geschiedenis__font {
+  margin-left: 3rem;
+  @media only screen and (max-width: 991px) {
+    margin-left: 1rem;
+  }
+}
+
+.accordion-header {
+  font-size: 3rem !important;
+  text-shadow: 1px 1px 6px #000000 !important;
+}
+
+.accordion.accordion-flush {
+  margin-top: 2rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+
+.titel {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
+  box-shadow: 1px 2px 9px 0px rgba(18, 16, 11, 0);
+  text-shadow: 1px 2px 9px rgba(18, 16, 11, 0.27);
+  text-shadow: 1px 1px 6px #000000;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.accordion-header {
+  font-size: 5rem !important;
+  font-family: "Noto Serif", serif !important;
+  font-weight: 700 !important;
+}
+.ondertitel {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 6px #000000;
+
+  font-family: "Quicksand", sans-serif;
+  @media only screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+.c-aanbod__titel {
+  font-size: 3rem;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 6px #000000;
+  @media only screen and (max-width: 578px) {
+    font-size: 2rem;
+  }
+}
+
+.carrousel {
+  padding: 7rem 0;
+
+  @media only screen and (max-width: 768px) {
+    padding: 1rem 0;
+  }
+}
+
+/*---------------------------------------/*
+  # BOOTSTRAP
+/*---------------------------------------*/
+
+.nav-link {
+  font-size: 1rem;
+  color: white !important;
+  margin-left: 0.6rem;
+  font-family: $navbar-font;
+  font-weight: 500;
+}
+
+.nav-link.active {
+  border-bottom: 2.5px solid $lichtgroen;
+  @media only screen and (max-width: 768px) {
+    border-bottom: none;
+    color: $lichtgroen !important;
+  }
+}
+
+.nav-link:hover {
+  color: $lichtgroen !important;
+}
+
+.c-nav {
+  background-color: $donkergroen !important;
+  display: fixed !important;
+}
+
+.accordion-button:focus {
+  color: white !important;
+  border-color: $donkergroen !important;
+  box-shadow: 0 0 0 0.25rem $lichtgroen !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: $lichtgroen !important;
+  color: #ffffff !important;
+}
+
+.accordion-button::after {
+  color: white !important;
+}
+
+.accordion-button {
+  border-bottom: black 2px !important;
+}
+
+.c-footer__map {
+  @media only screen and (max-width: 768px) {
+    margin: auto;
+    width: 524px !important;
+    display: block;
+  }
+}
+
+.naartop {
+  position: fixed;
+  color: white;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.naartop :hover {
+  color: $lichtgroen;
+}
+.form-label {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 6px #000000;
+}
+
+#inputGroupFile02 {
+  margin-top: 1rem !important;
+  margin-bottom: 2rem;
+}
+
+.btn.btn-primary {
+  background-color: $lichtgroen;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 3rem;
+  }
+  :hover {
+    background-color: lightgreen !important;
+  }
+}
+// .accordion-button:not(.collapsed)::after {
+//   background-image: url("data:image/svg+xml,%3csvg xmlns='httww.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+// }
+// .navbar-nav.ms-auto.text-center {
+//   margin-right: 2rem !important;
+// }
