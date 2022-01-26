@@ -41,6 +41,12 @@ h3 {
   fill: $lichtgroen;
 }
 
+.c-video{
+  background-color: $lichtgroen;
+  border: $lichtgroen solid 1rem;
+  
+}
+
 // .c-logo {
 //   margin-left: 2.5rem;
 // }
@@ -192,6 +198,10 @@ h3 {
   }
 }
 
+.c-padding{
+  padding: 3rem 0;
+  background-color: $donkergroen;
+}
 /*---------------------------------------/*
   # BOOTSTRAP
 /*---------------------------------------*/

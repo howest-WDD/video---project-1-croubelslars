@@ -38,6 +38,11 @@ h3 {
   fill: #93b8a9;
 }
 
+.c-video {
+  background-color: #93b8a9;
+  border: #93b8a9 solid 1rem;
+}
+
 .c-banner__text {
   text-align: center;
   color: white;
@@ -212,6 +217,11 @@ h3 {
   .carrousel {
     padding: 1rem 0;
   }
+}
+
+.c-padding {
+  padding: 3rem 0;
+  background-color: #313d38;
 }
 
 /*---------------------------------------/*
