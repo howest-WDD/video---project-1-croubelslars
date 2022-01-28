@@ -1,6 +1,7 @@
 /*---------------------------------------/*
   # SETTINGS
 /*---------------------------------------*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@500;600;700&display=swap");
 /*---------------------------------------/*
   # ELEMENTS
@@ -36,6 +37,14 @@ h3 {
 
 .c-logo-txt:hover {
   fill: #93b8a9;
+}
+
+.c-footer {
+  background-color: #93b8a9;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .c-video {
@@ -93,12 +102,12 @@ h3 {
   }
 }
 
-.c-footer {
+.c-contact {
   padding: 4rem 0;
   background-color: #313d38;
 }
 
-.c-footer__titel {
+.contact__titel {
   font-size: 3rem;
   font-family: "Noto Serif", serif;
   font-weight: 700;
@@ -107,7 +116,7 @@ h3 {
 }
 
 @media only screen and (max-width: 578px) {
-  .c-footer__titel {
+  .contact__titel {
     font-size: 2rem;
   }
 }
@@ -209,6 +218,10 @@ h3 {
   }
 }
 
+.btn.btn-link.btn-floating.btn-lg.text-dark.m-1 {
+  color: #000000 !important;
+}
+
 .carrousel {
   padding: 7rem 0;
 }
@@ -217,6 +230,24 @@ h3 {
   .carrousel {
     padding: 1rem 0;
   }
+}
+
+.c-footer__tekst {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.c-social-media {
+  margin-bottom: 4rem !important;
+}
+
+.c-copyrightclaim {
+  background-color: #313d38;
+  color: white;
+  font-weight: 500;
+  font-size: 0.7rem;
 }
 
 .c-padding {
@@ -318,4 +349,11 @@ h3 {
 
 .btn.btn-primary :hover {
   background-color: lightgreen !important;
+}
+
+.bericht {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 6px #000000;
 }

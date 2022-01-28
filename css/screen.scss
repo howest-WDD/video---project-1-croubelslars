@@ -1,6 +1,7 @@
 /*---------------------------------------/*
   # SETTINGS
 /*---------------------------------------*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@500;600;700&display=swap");
 $navbar-font: "Quicksand", sans-serif;
 $navbar-size: 2rem;
@@ -41,10 +42,16 @@ h3 {
   fill: $lichtgroen;
 }
 
-.c-video{
+.c-footer {
+  background-color: $lichtgroen;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.c-video {
   background-color: $lichtgroen;
   border: $lichtgroen solid 1rem;
-  
 }
 
 // .c-logo {
@@ -94,11 +101,11 @@ h3 {
   }
 }
 
-.c-footer {
+.c-contact {
   padding: 4rem 0;
   background-color: $donkergroen;
 }
-.c-footer__titel {
+.contact__titel {
   font-size: 3rem;
   font-family: "Noto Serif", serif;
   font-weight: 700;
@@ -190,6 +197,9 @@ h3 {
   }
 }
 
+.btn.btn-link.btn-floating.btn-lg.text-dark.m-1 {
+  color: #000000 !important;
+}
 .carrousel {
   padding: 7rem 0;
 
@@ -198,7 +208,23 @@ h3 {
   }
 }
 
-.c-padding{
+.c-footer__tekst {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.c-social-media {
+  margin-bottom: 4rem !important;
+}
+.c-copyrightclaim {
+  background-color: $donkergroen;
+  color: white;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+.c-padding {
   padding: 3rem 0;
   background-color: $donkergroen;
 }
@@ -288,6 +314,13 @@ h3 {
   :hover {
     background-color: lightgreen !important;
   }
+}
+
+.bericht {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  text-shadow: 1px 1px 6px #000000;
 }
 // .accordion-button:not(.collapsed)::after {
 //   background-image: url("data:image/svg+xml,%3csvg xmlns='httww.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
